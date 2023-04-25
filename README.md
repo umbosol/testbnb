@@ -1,6 +1,6 @@
 # testbnb
 
-##Install
+## Install
 
 ```sh
 npm install
