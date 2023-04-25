@@ -21,3 +21,5 @@ npx hardhat test --network localhost
 ```text
 create .env file and add MNEMONIC=ecc like .env_test
 ```
+
+test contract address deployed : 0x0ee5A69D8F632d1215D21789A6f40b90FD15450a
