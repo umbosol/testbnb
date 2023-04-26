@@ -5,7 +5,6 @@
 // describe('Person', () => {
 
 //     async function deployPersonFixture() {
-//         const [deployer] = await ethers.getSigners();
 //         const Person = await ethers.getContractFactory("Person");
 //         const hardhatPerson = await Person.deploy();
 

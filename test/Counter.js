@@ -5,7 +5,6 @@ const { ethers } = require("hardhat");
 describe('Counter', () => {
 
     async function deployCounterFixture() {
-        const [deployer] = await ethers.getSigners();
         const Counter = await ethers.getContractFactory("Counter");
         const hardhatCounter = await Counter.deploy();
 
