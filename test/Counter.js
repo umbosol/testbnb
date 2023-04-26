@@ -3,7 +3,6 @@ const { loadFixture } = require("@nomicfoundation/hardhat-network-helpers");
 const { ethers } = require("hardhat");
 
 describe('Counter', () => {
-    // const Counter = ethers.getContractFactory("Counter");
 
     async function deployCounterFixture() {
         const [deployer] = await ethers.getSigners();

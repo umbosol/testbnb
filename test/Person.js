@@ -3,7 +3,6 @@
 // const { ethers } = require("hardhat");
 
 // describe('Person', () => {
-//     const Person = ethers.getContractFactory("Person");
 
 //     async function deployPersonFixture() {
 //         const [deployer] = await ethers.getSigners();
