@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: MIT
-
 pragma solidity 0.8.19;
 
 contract Counter {
@@ -16,7 +15,7 @@ contract Counter {
         totalLess = a - b;
     }
 
-    function muiltple(uint256 a, uint256 b) public {
+    function multiple(uint256 a, uint256 b) public {
         totalMultiple = a * b;
     }
 

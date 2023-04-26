@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Utente\\Desktop\\testbnb\\contracts\\Person.sol": {
+      "lastModificationDate": 1682445403728,
+      "contentHash": "e10207f06453058e0c7fa0266eab578f",
+      "sourceName": "contracts/Person.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "Person"
+      ]
+    },
+    "C:\\Users\\Utente\\Desktop\\testbnb\\contracts\\Counter.sol": {
+      "lastModificationDate": 1682540201869,
+      "contentHash": "612e64de6e5776b1272da5ca2b761e25",
+      "sourceName": "contracts/Counter.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    }
+  }
+}
