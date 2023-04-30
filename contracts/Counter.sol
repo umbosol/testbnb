@@ -1,34 +1,31 @@
 // SPDX-License-Identifier: MIT
+
 pragma solidity 0.8.19;
 
 contract Counter {
-    uint256 public totalLess;
-    uint256 public totalAdd;
-    uint256 public totalMultiple;
-    uint256 public totalDivide;
+    int256 public totalLess;
+    int256 public totalAdd;
+    int256 public totalMultiple;
+    int256 public totalDivide;
 
-    function sum(uint256 a, uint256 b) public {
+    function sum(int256 a, int256 b) public {
         totalAdd = a + b;
     }
 
-    function less(uint256 a, uint256 b) public notMajor(a, b) {
+    function less(int256 a, int256 b) public  {
         totalLess = a - b;
     }
 
-    function multiple(uint256 a, uint256 b) public {
+    function muiltple(int256 a, int256 b) public {
         totalMultiple = a * b;
     }
 
-    function divide(uint256 a, uint256 b) public notZero(b) {
-        totalDivide = a / b;
+    function divide(int256 a, int256 b) public notZero(b) {
+        totalDivide = a/b;
     }
 
-    modifier notZero(uint256 b) {
+    modifier notZero(int256 b) {
         require(b != 0, "you can't divide by 0");
-        _;
-    }
-    modifier notMajor(uint256 a, uint256 b) {
-        require(a >= b, "you cannot subtract a value smaller than the first");
         _;
     }
 
@@ -36,10 +33,10 @@ contract Counter {
         public
         view
         returns (
-            uint256,
-            uint256,
-            uint256,
-            uint256
+            int256,
+            int256,
+            int256,
+            int256
         )
     {
         return (totalLess, totalAdd, totalDivide, totalMultiple);
